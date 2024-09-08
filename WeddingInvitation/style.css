@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;1,400&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     background-image: url('images/5044561.jpg');
     background-size: cover;
@@ -16,15 +18,30 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+iframe {
+    border: 5px solid rgba(150, 93, 112, 0.507);
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 400px; 
+    height: 200px;
+    position: relative;
+}
+
+.couple-names {
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.parent-names {
+    color: #555;
+  }
+
 h1 {
     font-size: 3rem;
     text-align: center;
-}
-
-h2{
-    margin-top: 10px;
-    font-size: 1.5rem;
-    text-align: center;
+    color: #555;
 }
 
 p {
@@ -33,6 +50,12 @@ p {
     text-align: center;
     word-wrap: break-word;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 @media (max-width: 768px) {
     h1 {
