@@ -18,12 +18,19 @@
     max-width: 80%;
     height: auto;
     object-fit: contain;
-    margin-bottom: 20px; /* Memberi jarak antara gambar dan teks */
+    /* margin-bottom: 20px; */
   }
   
   .text-container {
-    font-family: 'Roboto Slab', sans-serif; /* Gunakan font Roboto Slab */
+    font-family: 'Roboto Slab', sans-serif; 
     color: #333;
+  }
+
+  .couple-names {
+    font-family: 'Shadows Into Light', sans-serif; 
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
   }
 
   .button-container {
