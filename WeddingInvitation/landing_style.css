@@ -1,29 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+  body{
+    background-color: darksalmon;
+    /* background-image: url('images/5044561.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+  }
+
   .background {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('images/5044561.jpg');
-    background-size: cover;
-    background-position: center;
+    max-height: 90%;
+    max-width: 90%;
   }
   
   .foreground {
+    display: flex;
+    align-items: center;
     text-align: center;
+    max-height: 90%;
+    max-width: 90%;
   }
   
   img {
-    max-width: 80%;
-    height: auto;
-    object-fit: contain;
-    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    max-height: 90%;
+    max-width: 90%;
+    object-fit:scale-down;
   }
   
   .text-container {
-    font-family: 'Roboto Slab', sans-serif; 
+    font-family: 'Roboto Slab', sans-serif;
     color: #333;
+    padding: 20px;
   }
 
   .couple-names {
